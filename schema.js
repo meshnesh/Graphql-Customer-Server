@@ -19,7 +19,7 @@ const CustomerType = new GraphQLObjectType({
     fields: () => ({
         id: {type:GraphQLString},
         name: {type:GraphQLString},
-        nemaiame: {type:GraphQLString},
+        email: {type:GraphQLString},
         age: {type:GraphQLInt}
     })
 });
@@ -39,6 +39,12 @@ const RootQuery = new GraphQLObjectType({
                         return customers[i];
                     }
                 }
+            }
+        },
+        customers:{
+            type: new GraphQLList(CustomerType),
+            resolve(parentValue, args){
+                return customers;
             }
         }
     }
