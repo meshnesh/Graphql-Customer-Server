@@ -22,13 +22,13 @@
             "id": "4", 
             "name": "Daniel Qamaun", 
             "email": "danQ@gmail.com", 
-            "age": 35
+            "age": 15
         },
         {
             "id": "5", 
             "name": "Erick Kiarie", 
             "email": "ericK@yahoo.com", 
-            "age": 35
+            "age": 55
         }
     ]
 }
