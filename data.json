@@ -1,0 +1,34 @@
+{
+    "customers": [
+        {
+            "id": "1", 
+            "name": "John Doe", 
+            "email": "jdoe@gmail.com", 
+            "age": 30
+        },
+        {
+            "id": "2",
+             "name": "Jane Doe", 
+             "email": "janeD@yahoo.com", 
+             "age": 25
+        },
+        {
+            "id": "3", 
+            "name": "Alex Sanchez", 
+            "email": "alexSan@gmail.com", 
+            "age": 35
+        },
+        {
+            "id": "4", 
+            "name": "Daniel Qamaun", 
+            "email": "danQ@gmail.com", 
+            "age": 35
+        },
+        {
+            "id": "5", 
+            "name": "Erick Kiarie", 
+            "email": "ericK@yahoo.com", 
+            "age": 35
+        }
+    ]
+}

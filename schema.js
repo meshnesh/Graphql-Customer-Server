@@ -7,12 +7,17 @@ const {
     GraphQLNonNull,
 } = require('graphql');
 
+
+/*
 //Hard code data
 const customers = [
     {id: '1', name: 'John Doe', email: 'jdoe@gmail.com', age: 30},
     {id: '2', name: 'Jane Doe', email: 'janeD@yahoo.com', age: 25},
     {id: '3', name: 'Alex Sanchez', email: 'AlexSan@gmail.com', age: 35}
 ]
+*/
+
+
 //Customer Type
 const CustomerType = new GraphQLObjectType({
     name: 'Customer',
